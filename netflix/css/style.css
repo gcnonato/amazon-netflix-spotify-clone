@@ -6,3 +6,13 @@ header {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/background-netflix-header.jpg');
     height: 100vh;
 }
+
+nav img {
+    width: 167px;
+    height: 45px;
+}
+/* to be more specific with these tags although they have a class name we
+used nav followed by the classname */
+nav a .log {
+    display: inline-block;
+}
