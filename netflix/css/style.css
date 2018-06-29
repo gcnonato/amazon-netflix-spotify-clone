@@ -1,5 +1,14 @@
-body {
+html, body {
     margin: 0;
+    font-family: 'Helvetics Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+/* tells the browser not to calculate paddings and margin; makes things simpler for distance from one element to another */
+* {
+    box-sizing: border-box;
 }
 
 header {
@@ -31,7 +40,7 @@ nav .signin {
     line-height: normal;
     margin-top: 18px;
     margin-right: 3%;
-    padding: 7px 1px;
+    padding: 7px 17px;
     font-weight: 400;
     border-radius: 3px;
     font-size: 16px;
