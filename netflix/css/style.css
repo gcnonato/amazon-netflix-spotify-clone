@@ -10,9 +10,31 @@ header {
 nav img {
     width: 167px;
     height: 45px;
+    vertical-align: middle;
 }
 /* to be more specific with these tags although they have a class name we
 used nav followed by the classname */
-nav a .log {
+nav a.logo {
     display: inline-block;
+    line-height: 90px;
+    margin-left: 3%;
 }
+
+header nav {
+    height: 90px;
+}
+
+nav .signin {
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 7px 1px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
